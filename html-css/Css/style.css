@@ -1,0 +1,210 @@
+/*Arquivo CSS com estilos dos elementos de todas as páginas */
+@import './tabelas.css';
+* {
+	box-sizing: border-box;
+	font-family: serif;
+}
+
+html {
+	margin: -10px;
+	padding: 0px;
+	font-family: serif;
+	font-size: 62.5%;
+	width: 100%;
+}
+
+	/*CABEÇALHO*/
+
+header{
+	background-color: #202565;
+	border: 4px solid black;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: ghostwhite;
+}
+header h2{
+	font-weight: 400;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+	/*CORPO*/
+
+body { 
+	background: url(../imagens/imagem-homepage.png);
+	width: 100%;
+	overflow: scroll;
+}
+section{
+	background-color: rgba(255, 255, 255, .75);
+	margin-left: 15px;
+	margin-right: 15px;
+}
+h2 {
+	font-size: 4rem;
+	color: ghostwhite;
+
+}
+h1, p, h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+}
+nav {
+	float: left;
+	width: 30%;
+
+	background: rgba(255, 255, 255, 0.75);
+	padding: 20px;
+}
+
+	/*LINKS E LISTAS*/
+
+a{
+	color: ghostwhite;
+	text-decoration: none;
+}
+
+a:hover {
+	color: ghostwhite;
+	text-decoration: underline;
+	background-color: rgba(0, 0, 0, .5);
+	display: block;
+}
+.Link-imagem:hover { 
+	color: transparent;
+	background-color: rgba(0, 0, 0, 0);
+	display: inline-block;
+
+}
+a:active {
+	color: ghostwhite;
+	width: 100%;
+}
+
+ul{
+	font-size: 20px;
+	background-color: #202565;
+	color: ghostwhite;
+}
+
+ul li{
+	font-size: .8em;
+	width: 100%;
+	height: 2rem;
+	color: ghostwhite;
+	border-bottom: 1px solid ghostwhite;
+	line-height: 1.6rem;
+}
+
+
+/* Style the list inside the menu */
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	background-color: #202565;
+	color: ghostwhite;
+
+}
+
+	/*ARTIGO E PARÁGRAFO*/
+
+.centro{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+p{
+	font-size: 1.6rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+form div{
+	background-color: ghostwhite;
+	border: 2px solid #202565;
+	margin-bottom: 1rem;
+	padding: 2rem;
+}
+
+article {
+	float: left;
+	width: 50%;
+	background-color: rgba(255, 255, 255, 0.75);
+}
+.tabelas{
+	border: 2px solid #202565;
+}
+
+/* Clear floats after the columns */
+section::after {
+	background: #777;
+	content: "";
+	display: table;
+	clear: both;
+}
+
+	/*FORMULÁRIO*/
+
+label{
+	margin-bottom: 1rem;
+	font-size: 1.4rem;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+input {
+	padding: 1rem;
+	border: 1px solid darkgray;
+}
+
+[type="text"], [type="email"], textarea, label
+{
+	width: 50%;
+	display: block;
+}
+form div{
+	position: static;
+	position: relative;
+	top: -10px;
+}
+
+label{
+	position: static;
+}
+
+	/* RODAPÉ */
+
+footer {
+	background-color: #202565;
+	padding: 10px;
+	text-align: center;
+	color: ghostwhite;
+	border: 4px solid black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+	nav, article {
+		width: 100%;
+		height: auto;
+	}
+}
+/*
+	top(cima)
+	bottom(baixo)
+	left(esquerda)
+	right(direita)
+*/
+
+
+/* SMARTPHONE */
+@media (max-width: 425px){
+
+	nav,
+	article,
+	.coluna {
+		max-width: 100%;
+		width: 100%;
+		min-width: 320px;
+		padding: 20px;
+	}
+  }
