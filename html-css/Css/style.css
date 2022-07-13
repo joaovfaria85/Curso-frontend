@@ -126,10 +126,14 @@ form div{
 	padding: 2rem;
 }
 
-article {
+article {	
 	float: left;
 	width: 50%;
 	background-color: rgba(255, 255, 255, 0.75);
+}
+.Foto-Joao{
+	border-radius: 105px;
+	margin-top: 10px;
 }
 .tabelas{
 	border: 2px solid #202565;
