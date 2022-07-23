@@ -1,5 +1,6 @@
 html{
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 
@@ -12,6 +13,7 @@ body{
 .main-container{
     display: block;
     width: 100vw;
+    max-width: 1800px;
     margin: 0 auto;
 }
 
@@ -30,7 +32,6 @@ header{
     padding: 20px;
     background:#fff ;
     border-bottom: 1px solid #254159;
-
 
 }
 
