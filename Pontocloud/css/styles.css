@@ -12,7 +12,7 @@ body{
 
 .main-container{
     display: block;
-    width: 100vw;
+    width: 100%;
     max-width: 1800px;
     margin: 0 auto;
 }
@@ -160,4 +160,14 @@ footer small{
 }
 :root:root .cog-cognito--styled.cog-cognito--protect-css:not(.el-select-dropdown--long) *{
     background-color:#254159 !important;
+}
+@media (max-width:425px) {
+    section nav,
+    section article{
+        width: 100%;
+    }
+    .container{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
 }
