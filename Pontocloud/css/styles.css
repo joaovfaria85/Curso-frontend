@@ -1,6 +1,7 @@
 html{
     font-size: 62.5%;
     overflow-x: hidden;
+    background-color: #ffffff;
 }
 
 
@@ -21,9 +22,11 @@ body{
     display: block;
     float: left;
     padding: 20px;
-    width: 100%;
+    max-width: 98%;
+    width: 98%;
     margin: 0 auto;
     max-width: 1198px;
+    margin-left: 50px;
 }
 
 header{
@@ -83,8 +86,7 @@ section{
     background-color: #fff;
     display: block;
     float: left;
-    padding: 20px;
-    width: 100%;
+    
     font-size: 1.5rem; /* Aproximadamente 15px  */
 }
 
@@ -100,6 +102,7 @@ nav li{
     margin: 1px 20px 1px 0;
     padding: 10px;
     display: block;
+    width: 30%;
 
 }
 
@@ -129,7 +132,7 @@ footer{
     color: #ffffff;
     display: block;
     float: left;
-    padding: 20px;
+    padding: 0;
     width: 100%;
     font-size: 1.4rem;
 
@@ -152,7 +155,7 @@ footer small{
 }
 #tenho-interesse{
     width: 100%;
-    background-color:#ffffff;
+    background-color:rgb(243, 239, 239);
 }
 #tenho-interesse form, 
 .cognito.c-med .c-forms-form{
@@ -170,4 +173,82 @@ footer small{
         padding-left: 1%;
         padding-right: 1%;
     }
+}
+#banner {
+    background-image: url(../Imagens/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 96vw;
+    height: 60vh;
+    margin-left: 50px;
+    
+}
+.legenda-container{
+    float: right !important;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 30%;
+}
+
+.legenda {
+    display: block;
+    background-color: rgba(255, 255, 255, .6);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+
+
+}
+.legenda h5,
+.legenda h4{
+    color: #254159;
+    line-height: 150%;
+}
+.button-cta{
+    display: inline;
+    background-color: orangered;
+    color: ghostwhite;
+    font-size: 2rem;
+    box-shadow: 2px 2px 2px black;
+    padding: 10px 15px;
+    width: auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 300;
+    float: right;
+}
+.button-cta:hover{
+    background-color: rgba(255, 69, 0, .7);
+}
+
+#saiba-mais{
+    background-color: rgb(243, 239, 239);
+    width: 100%;
+    padding: 40px 0;
+
+}
+#saiba-mais p,
+#saiba-mais img{
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+dl{
+    margin: 20px 0;
+}
+dt{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #254159;
+}
+dd{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    padding: 10px;
 }
