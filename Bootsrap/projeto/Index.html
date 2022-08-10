@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    
+    <!-- Bootsrap -->
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Css personalizado -->
+
+    <link rel ="stylesheet" href="./style/custom.css">
+
+    <title>Delícias Da Jô</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h1>
+                        
+                    </h1>
+
+                </div>
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a target="_blank" class="nav-link active" href="https://www.instagram.com/deliciasdajo.0/">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h1 style="font-family: 'Oleo Script Swash Caps', cursive; text-align: center;">Bolos frescos, saborosos e caseiros você só encontra aqui no delícias da Jô!!! Faça já sua encomenda!!!</h1>
+                    <p></p>
+                </div>
+                <div class="col-md-7 col-sm-12">
+                    <img src="./bootstrap/Imagens/Deliciasdajo.png" style="padding: 10px;"
+                    alt="imagem bolo" class="img-fluid">
+                    <div class="col">
+                    <a target="_blank" class="btn btn-lg btn-danger">Visite nosso instagram!</a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <section id="produtos">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">                   
+                    <h2>Produtos</h2>
+
+                    <div class="card">
+                        <img src="./bootstrap/Imagens/deliciasdajooreo.png"  alt="Imagem Produto" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Bolo de Oreo</h5>
+                            <p class="card-text">Você já provou o nosso delicioso bolo de oreo? Uma saborosa massa de oreo com calda de brigadeiro gourmet e pedacinhos de oreo em cima, para você se deliciar com a família e amigos!
+
+                            </p>
+                            <a target="_blank" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1" >Consultar preços</a>
+                            <a target="_blank" class="btn btn-primary" href="https://www.instagram.com/p/Cf9TBOqr70e/">Peça já!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./bootstrap/Imagens/deliciasdajococo.png"  alt="Imagem Produto" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Bolo de coco especial</h5>
+                            <p class="card-text">Uma deliciosa massa de coco com brigadeiro gourmet e uma saborosa cocada por cima, entregamos essa delícia até você!!
+
+
+                            </p>
+                            <a target="_blank" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Consultar preços</a>
+                            <a target="_blank" class="btn btn-primary" href="https://www.instagram.com/p/Cf6jHKELxhW/">Peça já!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./bootstrap/Imagens/deliciasdajobroa.png"  alt="Imagem Produto" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Broa de Milho</h5>
+                            <p class="card-text">Hummm… na hora do café não pode faltar aquela Broa fresquinha com uma massa saborosa e um cafézinho fresquinho e quentinho, fica tudo de bom!!!! Você gosta de broa com café? Se a resposta é sim, não perca tempo e peça a sua!!!!
+                            </p>
+                            <a target="_blank" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Consultar preços</a>
+                            <a target="_blank" class="btn btn-primary" href="https://www.instagram.com/p/Cd_k5snv3Qy/">Peça Já!</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Quer fazer um pedido maior?</h2>
+                    <p>Preencha os campos do formulário ao lado para receber uma cotação.</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea class="form-control" name="Pedido" placeholder="Descrição do Pedido" rows="10"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-lg btn-success">Solicitar Cotação</button>
+
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 1</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira a tabela de preço.</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Unidades</th>
+                                <th>Valor</th>
+                             </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>R$ 20</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>R$ 35</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>R$ 50</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                    data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
