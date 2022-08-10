@@ -1,0 +1,74 @@
+.nav-link{
+    color: ghostwhite;
+}
+.nav-link:hover{
+    color: black;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    margin: 5px;
+    align-items: center;
+    height: auto;
+}
+input{
+    margin-bottom: 1rem;
+}
+.card-body{
+    width: auto;
+    float: left;
+    text-align: center;
+    height: auto;
+}
+.btn-primary,
+.btn-danger,
+.btn-success,
+.btn-secondary{
+    float: center;
+    background-color: pink;
+    color: #952a6c;
+    border-color: #952a6c;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    color: #ee0294;
+}
+h2{
+    text-align: center;
+}
+.col-md-7,
+.col-md-12,
+.col-md-6{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+header{
+    background-color: #952a6c;
+    
+}
+.btn-primary:hover{
+    background-color: #952a6c;
+    color: pink;
+    border-color: pink;
+}
+.btn-danger:hover{   
+    background-color: #952a6c;
+    color: pink;
+    border-color: pink;
+}
+.btn-success:hover{
+    background-color: #952a6c;
+    color: pink;
+    border-color: pink;
+}
+.input-group{
+    padding: 2px;
+}

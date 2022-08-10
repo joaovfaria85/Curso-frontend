@@ -70,7 +70,7 @@ function calculoMedia ( notas ){
 }
 
 
-    
+   /* Formulario 02*/ 
     
     function validaCampo(elemento){
 
@@ -97,7 +97,7 @@ function validaCampoNumerico(elemento){
 
         event.preventDefault();
 
-        let numero =this.value
+        let numero = this.value
 
         if(numero !== "" && numero.match(/[0-9]*/) && numero >=0 && numero <=10){
             document.querySelector('.mensagem').innerHTML = "";
