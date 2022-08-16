@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+
+    <!-- Reset CSS -->
+
+    <link rel="stylesheet" href="../../html-css/Css/reset.css">
+    
+    <!-- Bootsrap -->
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Css personalizado -->
+
+    <link rel ="stylesheet" href="./style/custom.css">
+
+    <title>Delícias Da Jô</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a target="_blank" class="nav-link active" href="https://www.instagram.com/deliciasdajo.0/">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="ratio ratio-16x9">    
+                     <img src="./bootstrap/Imagens/deliciasdajooreo.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-caption">
+                        <h5>Oreo</h5>
+                        <a class="btn btn-light stretched-link">Call to action</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                     <div class="ratio ratio-16x9">
+                        <img src="./bootstrap/Imagens/deliciasdajococo.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-16x9">
+                        <img src="./bootstrap/Imagens/deliciasdajobroa.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container">
+        <i class="fa-solid fa-cake-candles"></i>
+        <div class="bg-info clearfix">
+        <a name="" id="" class="btn link-dark float-start" href="#" role="button">Link</a>
+        <a name="" id="" class="btn btn-dark float-end" href="#" role="button">Botão</a>
+        </div>
+    </div>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/b8b404a36a.js" crossorigin="anonymous"></script>
+    <script>
+        var myCarousel = document.querySelector('#myCarousel')
+        var carousel = new bootstrap.Carousel(myCarousel, { 
+            pause:false,
+            interval:2000
+    })
+    </script>
+</body>
+</html>

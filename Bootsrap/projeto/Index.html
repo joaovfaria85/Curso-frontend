@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+
+    <!-- Reset CSS -->
+
+    <link rel="stylesheet" href="../../html-css/Css/reset.css">
     
     <!-- Bootsrap -->
 
@@ -27,23 +31,61 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-
-                    <h1>
-                        
-                    </h1>
-
-                </div>
-                <div class="col">
                     <ul class="nav justify-content-end">
                         <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
                         <li class="nav-item"><a class="nav-link active" href="#sobre">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link active" href="#produtos">Produtos</a></li>
-                        <li class="nav-item"><a target="_blank" class="nav-link active" href="https://www.instagram.com/deliciasdajo.0/">Contato</a></li>
+                        <li class="nav-item"><a target="_blank" class="nav-link active" href="./cadastro.html">Contato</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
+
+    <div class="container">
+
+        <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="ratio ratio-16x9">    
+                     <img src="./bootstrap/Imagens/Carrousel1.jpg" style="border-radius: 20px;" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-caption">
+                        <h5>Mais qualidade para você e sua família</h5>
+                        <a class="btn btn-light stretched-link" href="#produtos">Conheça nossos produtos</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                     <div class="ratio ratio-16x9">
+                        <img src="./bootstrap/Imagens/carrousel2.jpg" style="border-radius: 20px;" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-caption">
+                        <h5>Mais qualidade para você e sua família</h5>
+                        <a class="btn btn-light stretched-link" href="#produtos">Conheça nossos produtos</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-16x9">
+                        <img src="./bootstrap/Imagens/carrousel3.jpg" style="border-radius: 20px;" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-caption">
+                        <h5>Mais qualidade para você e sua família</h5>
+                        <a class="btn btn-light stretched-link" href="#produtos">Conheça nossos produtos</a>
+                    </div>
+                </div>
+            </div>
+        
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
 
     <section id="sobre">
 
@@ -54,10 +96,10 @@
                     <p></p>
                 </div>
                 <div class="col-md-7 col-sm-12">
-                    <img src="./bootstrap/Imagens/Deliciasdajo.png" style="padding: 10px;"
+                    <img src="./bootstrap/Imagens/DeliciasdaJoprincipal.jpg" style="padding: 10px; border-radius: 150px;"
                     alt="imagem bolo" class="img-fluid">
                     <div class="col">
-                    <a target="_blank" class="btn btn-lg btn-danger">Visite nosso instagram!</a>
+                    <a target="_blank" class="btn btn-lg btn-danger" href="https://www.instagram.com/deliciasdajo.0/">Visite nosso instagram!</a>
                     </div>
                 </div>
             </div>
@@ -70,8 +112,8 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12">                   
                     <h2>Produtos</h2>
-
-                    <div class="card">
+                    <ul class="lista-produtos">
+                    <li class="card">
                         <img src="./bootstrap/Imagens/deliciasdajooreo.png"  alt="Imagem Produto" class="img-fluid">
                         <div class="card-body">
                             <h5 class="card-title">Bolo de Oreo</h5>
@@ -81,8 +123,8 @@
                             <a target="_blank" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1" >Consultar preços</a>
                             <a target="_blank" class="btn btn-primary" href="https://www.instagram.com/p/Cf9TBOqr70e/">Peça já!</a>
                         </div>
-                    </div>
-                    <div class="card">
+                    </li>
+                    <li class="card">
                         <img src="./bootstrap/Imagens/deliciasdajococo.png"  alt="Imagem Produto" class="img-fluid">
                         <div class="card-body">
                             <h5 class="card-title">Bolo de coco especial</h5>
@@ -93,8 +135,8 @@
                             <a target="_blank" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Consultar preços</a>
                             <a target="_blank" class="btn btn-primary" href="https://www.instagram.com/p/Cf6jHKELxhW/">Peça já!</a>
                         </div>
-                    </div>
-                    <div class="card">
+                    </li>
+                    <li class="card">
                         <img src="./bootstrap/Imagens/deliciasdajobroa.png"  alt="Imagem Produto" class="img-fluid">
                         <div class="card-body">
                             <h5 class="card-title">Broa de Milho</h5>
@@ -104,7 +146,7 @@
                             <a target="_blank" class="btn btn-primary" href="https://www.instagram.com/p/Cd_k5snv3Qy/">Peça Já!</a>
                         </div>
                     </div>
-
+                    </ul>
                 </div>
             </div>
         </div>
@@ -116,7 +158,6 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <h2>Quer fazer um pedido maior?</h2>
-                    <p>Preencha os campos do formulário ao lado para receber uma cotação.</p>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <form class="form">
@@ -130,6 +171,7 @@
                         </div>
 
                         <div class="input-group">
+                            <i class="fa-solid fa-phone"></i>
                             <textarea class="form-control" name="Pedido" placeholder="Descrição do Pedido" rows="10"></textarea>
                         </div>
                         
@@ -188,5 +230,6 @@
 
 
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/b8b404a36a.js" crossorigin="anonymous"></script>
 </body>
 </html>

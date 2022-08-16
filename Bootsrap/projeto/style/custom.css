@@ -1,8 +1,18 @@
+body{
+    background-image: url(../bootstrap/Imagens/backgroundjo2.jpg);
+}
+
+ul{
+padding: 0;
+}
+a:focus{
+    color: ghostwhite !important;  
+}
 .nav-link{
     color: ghostwhite;
 }
 .nav-link:hover{
-    color: black;
+    color: black !important;
 }
 
 .card{
@@ -11,6 +21,8 @@
     margin: 5px;
     align-items: center;
     height: auto;
+    display: flex;
+    
 }
 input{
     margin-bottom: 1rem;
@@ -36,6 +48,9 @@ input{
 }
 h1{
     color: #ee0294;
+    background-color: aliceblue;
+    opacity: 60%;
+    border-radius: 10px;
 }
 h2{
     text-align: center;
@@ -71,4 +86,42 @@ header{
 }
 .input-group{
     padding: 2px;
+}
+label{
+    padding: 10px;
+    margin: 5px;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: #952a6c;
+    background-color: aliceblue;
+
+}
+
+.lista-produtos{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lista-produtos li{
+    min-width: 310px;
+}
+.bg-info{
+    background-color: #952a6c !important;
+    
+}
+h5,h2{
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: #952a6c;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+#carouselExampleFade{
+    border-radius: 20px !important;
+}
+p{
+    color: #952a6c;
+    background-color: ghostwhite;
 }
