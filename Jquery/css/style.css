@@ -738,3 +738,12 @@ a {
 	} 
 
 }
+
+#email{
+	position: relative;
+}
+
+.invalid{
+	border: 5px solid;
+	border-color: #f00;
+}
